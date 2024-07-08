@@ -12,7 +12,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="blog">
       {single.map((post) => (
         <div>
           <h2>{post.category}</h2>
