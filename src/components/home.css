@@ -1,0 +1,43 @@
+.container{
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+       flex-wrap: wrap;
+        padding-bottom: 60px;
+        justify-content: space-around;
+        align-content: center;
+      
+       
+       
+}
+.blog{
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+    margin-top: 40px;
+  }
+  .body{
+   
+    margin-bottom: 100%;
+  }
+  .searchBox {
+       border: none;
+    outline: none;
+    padding: 2px;
+    width: 150px;
+    line-height: 30px;
+    margin-top: 30px;
+    border-radius:50px;
+    margin-left: 100PX;
+    }
+    body{
+      background-image:url('./hand-painted-watercolor-pastel-sky-background_23-2148902771.avif');
+      background-repeat:no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size:cover;
+    }
